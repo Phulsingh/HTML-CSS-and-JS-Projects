@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    height: 100%;
+    width: 1500px;
+    background-color: #fff;
+    margin: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+.img img{
+    padding-top: 5px;
+}
+.search{
+    display: flex;
+    min-width: 750px;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+    height: 40px;
+    margin-left: -50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+.search input{
+    border: none;
+    font-size: 17px;
+    color: #010101;
+    width: 90%;
+    background-color: aliceblue;
+    
+}
+.search p{
+    height: 44px;
+    width: 44px;
+}
+.search i{
+    height: 26px;
+    width: 28px;
+    padding-top: 13px;
+    padding-left: 13px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -35px;
+    height: 44px;
+    border-radius: 7px;
+    width: 120px;
+}xx
+.login img{
+    margin-right: 5px;
+}
+.login p{
+    margin-right: 7px;
+}
+.login select{
+    border: none;
+    background-color: none;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 120px;
+    position: relative;
+    right: 50px;
+}
+.cart img{
+    margin-right: 7px;
+}
+.become-seller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    position: relative;
+    right: 70px;
+}
+.become-seller p{
+    margin-left: 6px;
+}
+.three-dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    position: relative;
+    right: 70px;
+    position: relative;
+    right: 50px;
+}
+article{
+    background-color: azure;
+    height: 1000px;
+    width: 100%;
+}
+section{
+    height: 130px;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative;
+    top: 10px;
+}
+section .sec-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+section .sec-img img{
+    height: 64px;
+    width: 64px;
+}
+section .sec-img p{
+    font-size: 15px;
+    color: #333333;
+    font-weight: 525;
+}
+.slide-img{
+    position: relative;
+    top: 25px;
+}
+.slide-img img{
+    height: 250px;
+    width: 1500px;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+.electronics{
+    display: flex;
+    height: 280px;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+.electronics .img-1{
+    display: grid;
+    gap: 10px;
+    
+}
+.electronics .img-1 p{
+    text-align: center;
+}
+.electronics .img-1{
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+}
+.electronics .img-1 img{
+    height: 198px;
+    width: 198px;
+    mix-blend-mode: multiply;
+    border: 1px solid #333333;
+}

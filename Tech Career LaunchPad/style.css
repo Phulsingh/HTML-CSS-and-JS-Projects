@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color:#4A235A;
+    height: 550px;
+    width: 100%;
+}
+.container{
+    height: 700px;
+    width:100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: #EBDEF0;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.nav span{
+    color:  #DFFF00;
+    font-weight: 700;
+}
+.nav1{
+    display: flex;
+    float: right;
+    justify-items: flex-end;
+    font-size:20px;
+}
+#logo{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+#time{
+    margin-right: 17px;
+    margin-top: 5px;
+}
+.sign-in{
+    height: 35px;
+    width: 80px;
+    background-color: #9B59B6 ;
+    border: none;
+    border-radius: 15px;
+    justify-content: flex-start;
+    font-size: 19px;
+    margin-right: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+.sign-in:hover{
+    background-color: #dee0e2;
+    color: black;
+}
+.content{
+    height: 500px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: flex;
+}
+.left-content{
+    height: 500px;
+    width: 400px;
+}
+#first{
+    height: 150px;
+    width: 150px
+}
+#first p{
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #D6EAF8;
+    border-bottom: 0.5px solid #fff;
+    width: 340px;
+    padding-bottom: 8px;
+}
+#first img{
+    height: 340px;
+    width: 340px;
+    border-radius: 25px;
+    border: 4px solid #F1C40F;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+#second{
+    margin-top: 250px;
+}
+#second #user{
+    display: flex;
+    border-bottom: 0.5px solid #fff;
+    width: 340px;
+}
+#png{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+#name1{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 5px;
+    padding-left: 7px;
+    padding-top: 2px;
+}
+#name2{
+    position: relative;
+    top: 45px;
+    right: 115px;
+    color:#dee0e2;;
+    font-weight: 700;
+    padding-top: 2px;
+}
+.third{
+    height: 200px;
+    width: 340px;
+}
+.third .images{
+    height: 50px;
+    width: 20px;
+    display: flex;
+    margin-top: 8px;
+}
+.third .images img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    border: 2px solid black;
+}
+.third h6{
+    font-size: 14px;
+    margin-top: 2px;
+    color: #fff;
+    font-weight: 500;
+}
+.third p{
+    color:  #fff;
+    font-size: 14px;
+    column-gap: 10px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.right-content{
+    height: 500px;
+    width: 600px;
+    margin-left: 20px;
+}
+.right-content h1{
+    font-size: 47px;
+    color: #fff;
+}
+#date{
+    display: flex;
+    margin-top: 8px;
+}
+#date div{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+#Jan{
+    background-color: #D2B4DE;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+span{
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+span #first-line{
+    font-size: 17px;
+    font-weight: 600;
+}
+span #second-line{
+    font-size: 15px;
+    font-weight: 500;
+    color: #EBDEF0;
+}
+#zoom{
+    display: flex;
+}
+#zoom h4{
+    height: 40px;
+    width: 44px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 208px;
+    right: 816px;
+}
+#zoom  h5{
+    margin-left: 40px;
+    font-size: 17px;
+    padding-top: 10px;
+}
+#reg{
+    height: 120px;
+    width: 550px;
+    border: 1px solid #fff;
+    margin-top: 30px;
+    border-radius: 14px;
+    background-color: #884EA0;
+    transition: 0.3s;
+}
+#reg:hover{
+    background-color: #A569BD;
+}
+#reg span{
+    display: flex;
+}
+#reg span h2 i{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border-radius: 50%;
+}
+#reg span h4{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    right: 10px;
+}
+#reg p{
+    font-size: 15px;
+    color: #fff;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#reg h6{
+    margin-top: 50px;
+    font-size: 15px;
+    color: white;
+    border-bottom:  1px solid #fff;
+    padding-bottom: 10px;
+}
+#para{
+    margin-top: 70px;
+}
+#para p{
+    color: #fff;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 530;
+}
